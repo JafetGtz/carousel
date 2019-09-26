@@ -1,3 +1,5 @@
+//  funciones para carousel bulma
+
 function ready(handler) {
   if (/complete|loaded|interactive/.test(document.readyState) && document.body) {
     handler();
@@ -18,7 +20,7 @@ ready(function () {
         const node = e.currentTarget;
         if (node) {
           node.classList.toggle('is-active');
-          // Get the target from the "data-target" attribute
+          
           let target = node.dataset.target;
           if (target) {
             const targetNode = document.querySelector(node.dataset.target);

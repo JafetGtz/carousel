@@ -1,8 +1,13 @@
 ready(function () {
+
+/* ------------------------ se inicializa el carrusel ----------------------- */
+
+
+
   bulmaCarousel.attach('#slider', {
     slidesToScroll: 1,
-    slidesToShow: 4,
-    autoplay: true,
+    slidesToShow: 4,          /* ---------------------- Atributos ------------------------------- */
+    autoplay: true,                              
     infinite: true
 
   });
@@ -24,3 +29,6 @@ ready(function () {
     loop: true
   });
 });
+
+
+///tipos de slider,  cambiar el nombre de la clase  o id para usar.
